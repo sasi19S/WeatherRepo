@@ -20,7 +20,7 @@
     <!-- Show Weather -->
     <div th:if="${weather}">
         <h2 th:text="'Weather for ' + ${weather.city}"></h2>
-        <p>Temperature: <span th:text="${weather.temperature}"></span> °C</p>
+        <p>Temperature: <span th:text="${weather.temperature}"></span></p>
         <p>Description: <span th:text="${weather.description}"></span></p>
     </div>
 </body>
